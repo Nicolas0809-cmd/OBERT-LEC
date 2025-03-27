@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBERT&LEC</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo OBERT&LEC" class="logo-large">
+        </div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="#services">Nos Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="card fade-in">
+            <h2>Qui sommes-nous ?</h2>
+            <p>Jeune artisan électricien, sérieux et passionné, à la tête de la société OBERT&LEC depuis 2 ans. Nous vous accompagnons dans tous vos projets électriques avec soin, efficacité et fiabilité.</p>
+        </section>
+
+        <section class="card fade-in" id="services">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <a href="service-electricite.html" class="service-item"><img src="electricite.jpg"/> Électricité générale</a>
+                <a href="service-normes.html" class="service-item"><img src="normes.jpg"/> Remise aux normes</a>
+                <a href="service-depannage.html" class="service-item"><img src="depannage.jpg"/> Dépannage</a>
+                <a href="service-domotique.html" class="service-item"><img src="domotique.jpg"/> Domotique</a>
+            </div>
+        </section>
+
+        <section class="card fade-in">
+            <h2>Contactez-nous</h2>
+            <p>Email : obert.nicolas@icloud.com<br>Téléphone : 0782412678</p>
+            <form class="contact-form" action="mailto:obert.nicolas@icloud.com" method="post" enctype="text/plain">
+                <input type="text" name="Nom" placeholder="Nom" required>
+                <input type="text" name="Prénom" placeholder="Prénom" required>
+                <textarea name="Message" placeholder="Votre demande..." required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; OBERT&LEC - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
